@@ -1,0 +1,21 @@
+[project]
+name = "ucv-si-lab03"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Santiagoacostazamora",email = "oacostaz@ucvvirtual.edu.pe"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "kedro (>=1.6.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)"
+]
